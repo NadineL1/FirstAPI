@@ -3,11 +3,11 @@
 GET {{rootURL}}/weatherforecast/
 Accept: application/json
 
-###
+### Show all books
 GET {{rootURL}}/api/books
 Accept: application/json
 
-###
+### Show specific book based on id
 GET {{rootURL}}/api/books/2
 Accept: application/json
 
@@ -15,7 +15,6 @@ Accept: application/json
 POST {{rootURL}}/api/books
 Content-Type: application/json
 {
-  "id" : 6,
   "title" : "twilligt",
   "author" : "Stephenie Meyer",
   "yearPublished" : 2005
@@ -26,9 +25,9 @@ PUT {{rootURL}}/api/books/5
 Content-type: application/json
 {
   "id" : 5,
-  "title" : "Moby Dick",
+  "title" : "Hi",
   "author" : "Stephenie Meyer",
-  "yearPublished" : 1925
+  "yearPublished" : 1920
 }
 
 ### Delete request
